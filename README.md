@@ -5,8 +5,8 @@ How many hours did it take to complete?
 9 hours
 
 
-Intro
-  Static photo tiles on the initial screen
+-Intro-
+Static photo tiles on the initial screen
 
 
 
