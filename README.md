@@ -30,4 +30,4 @@ User can log out
 
 GIF walkthrough of all required stories (using LiceCap)
 
-![alt tag](/Week_1_Dropbox.gif)
+![alt tag](/carousel-week-2.gif)
