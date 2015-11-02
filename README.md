@@ -2,7 +2,7 @@
 
 How many hours did it take to complete?
 
-9 hours
+9 hours - Finished every required step
 
 
 -Intro-
