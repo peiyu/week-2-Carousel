@@ -6,11 +6,12 @@ How many hours did it take to complete?
 
 
 -Intro-
+
 Static photo tiles on the initial screen
 
 
 
-Sign In
+-Sign In-
 
 Tapping on email/password reveals the keyboard and shifts the scrollview and Sign In button up.
 Upon tapping the Sign In button.
@@ -19,13 +20,13 @@ If credentials are incorrect, user sees a loading indicator for 2 seconds follow
 If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
 
 
-Tutorial Screens
+-Tutorial Screens-
 
 User can page between the screens
 
 
 
-Image Timeline
+-Image Timeline-
 
 Display a scrollable view of images.
 User can tap on the conversations button to see the conversations screen (push).
@@ -33,13 +34,13 @@ User can tap on the profile image to see the settings view (modal from below).
 
 
 
-Conversations
+-Conversations-
 
 User can dismiss the conversations screen
 
 
 
-Settings
+-Settings-
 
 User can dismiss the settings screen.
 User can log out
