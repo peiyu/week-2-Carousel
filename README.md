@@ -6,8 +6,7 @@ How many hours did it take to complete?
 
 
 Intro
-
-Static photo tiles on the initial screen
+  Static photo tiles on the initial screen
 
 
 
