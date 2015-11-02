@@ -14,6 +14,13 @@
 		560D36E71BE6A7FC0002B928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560D36E51BE6A7FC0002B928 /* LaunchScreen.storyboard */; };
 		560D36F21BE6A7FC0002B928 /* week_2_carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560D36F11BE6A7FC0002B928 /* week_2_carouselTests.swift */; };
 		560D36FD1BE6A7FC0002B928 /* week_2_carouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560D36FC1BE6A7FC0002B928 /* week_2_carouselUITests.swift */; };
+		560D370B1BE6A9C50002B928 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560D370A1BE6A9C50002B928 /* Common.swift */; };
+		560D370D1BE6AAB30002B928 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560D370C1BE6AAB30002B928 /* IntroViewController.swift */; };
+		560D37101BE6B6620002B928 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560D370F1BE6B6620002B928 /* LoginViewController.swift */; };
+		560D37121BE6DEDA0002B928 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560D37111BE6DEDA0002B928 /* TutorialViewController.swift */; };
+		560D37141BE717250002B928 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560D37131BE717250002B928 /* ConversationViewController.swift */; };
+		560D37161BE717E60002B928 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560D37151BE717E60002B928 /* SettingViewController.swift */; };
+		560D37181BE71B310002B928 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560D37171BE71B310002B928 /* TimelineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		560D36F81BE6A7FC0002B928 /* week 2 carouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "week 2 carouselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		560D36FC1BE6A7FC0002B928 /* week_2_carouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week_2_carouselUITests.swift; sourceTree = "<group>"; };
 		560D36FE1BE6A7FC0002B928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		560D370A1BE6A9C50002B928 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		560D370C1BE6AAB30002B928 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		560D370F1BE6B6620002B928 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		560D37111BE6DEDA0002B928 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		560D37131BE717250002B928 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		560D37151BE717E60002B928 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		560D37171BE71B310002B928 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +111,9 @@
 		560D36DB1BE6A7FC0002B928 /* week 2 carousel */ = {
 			isa = PBXGroup;
 			children = (
+				560D370A1BE6A9C50002B928 /* Common.swift */,
 				560D36DC1BE6A7FC0002B928 /* AppDelegate.swift */,
+				560D370E1BE6AAC60002B928 /* View Controllers */,
 				560D36DE1BE6A7FC0002B928 /* ViewController.swift */,
 				560D36E01BE6A7FC0002B928 /* Main.storyboard */,
 				560D36E31BE6A7FC0002B928 /* Assets.xcassets */,
@@ -123,6 +139,19 @@
 				560D36FE1BE6A7FC0002B928 /* Info.plist */,
 			);
 			path = "week 2 carouselUITests";
+			sourceTree = "<group>";
+		};
+		560D370E1BE6AAC60002B928 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				560D370F1BE6B6620002B928 /* LoginViewController.swift */,
+				560D37111BE6DEDA0002B928 /* TutorialViewController.swift */,
+				560D37131BE717250002B928 /* ConversationViewController.swift */,
+				560D37151BE717E60002B928 /* SettingViewController.swift */,
+				560D37171BE71B310002B928 /* TimelineViewController.swift */,
+				560D370C1BE6AAB30002B928 /* IntroViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560D37141BE717250002B928 /* ConversationViewController.swift in Sources */,
 				560D36DF1BE6A7FC0002B928 /* ViewController.swift in Sources */,
+				560D370B1BE6A9C50002B928 /* Common.swift in Sources */,
+				560D37161BE717E60002B928 /* SettingViewController.swift in Sources */,
 				560D36DD1BE6A7FC0002B928 /* AppDelegate.swift in Sources */,
+				560D37181BE71B310002B928 /* TimelineViewController.swift in Sources */,
+				560D37101BE6B6620002B928 /* LoginViewController.swift in Sources */,
+				560D37121BE6DEDA0002B928 /* TutorialViewController.swift in Sources */,
+				560D370D1BE6AAB30002B928 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "560D36D81BE6A7FC0002B928"
+               BuildableName = "week 2 carousel.app"
+               BlueprintName = "week 2 carousel"
+               ReferencedContainer = "container:week 2 carousel.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "560D36EC1BE6A7FC0002B928"
+               BuildableName = "week 2 carouselTests.xctest"
+               BlueprintName = "week 2 carouselTests"
+               ReferencedContainer = "container:week 2 carousel.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "560D36F71BE6A7FC0002B928"
+               BuildableName = "week 2 carouselUITests.xctest"
+               BlueprintName = "week 2 carouselUITests"
+               ReferencedContainer = "container:week 2 carousel.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "560D36D81BE6A7FC0002B928"
+            BuildableName = "week 2 carousel.app"
+            BlueprintName = "week 2 carousel"
+            ReferencedContainer = "container:week 2 carousel.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "560D36D81BE6A7FC0002B928"
+            BuildableName = "week 2 carousel.app"
+            BlueprintName = "week 2 carousel"
+            ReferencedContainer = "container:week 2 carousel.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "560D36D81BE6A7FC0002B928"
+            BuildableName = "week 2 carousel.app"
+            BlueprintName = "week 2 carousel"
+            ReferencedContainer = "container:week 2 carousel.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
