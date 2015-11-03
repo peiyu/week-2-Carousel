@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="fFW-l5-hVK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="6aK-VT-3wa">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
@@ -28,7 +28,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="kCd-SI-8Ap">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" id="kCd-SI-8Ap">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1136"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
@@ -37,23 +37,8 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile1" id="nZY-pw-EfC">
-                                        <rect key="frame" x="47" y="741" width="153" height="152"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <animations/>
-                                    </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile2" id="orp-eH-lkc">
-                                        <rect key="frame" x="200" y="741" width="76" height="75"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <animations/>
-                                    </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile3" id="kVM-Lo-DLS">
-                                        <rect key="frame" x="199" y="817" width="76" height="76"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <animations/>
-                                    </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile4" id="mMq-sI-cyA">
-                                        <rect key="frame" x="47" y="893" width="76" height="76"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile6" id="DC3-kJ-Sqh">
+                                        <rect key="frame" x="199" y="894" width="76" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
@@ -62,8 +47,23 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile6" id="DC3-kJ-Sqh">
-                                        <rect key="frame" x="199" y="894" width="76" height="75"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile4" id="mMq-sI-cyA">
+                                        <rect key="frame" x="47" y="893" width="76" height="76"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile3" id="kVM-Lo-DLS">
+                                        <rect key="frame" x="199" y="817" width="76" height="76"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile2" id="orp-eH-lkc">
+                                        <rect key="frame" x="200" y="741" width="76" height="75"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro_tile1" id="nZY-pw-EfC">
+                                        <rect key="frame" x="47" y="741" width="153" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <animations/>
                                     </imageView>
@@ -88,6 +88,11 @@
                     <connections>
                         <outlet property="imageView" destination="emo-Qd-NQp" id="qXI-MN-6hR"/>
                         <outlet property="photo1" destination="nZY-pw-EfC" id="rgm-8m-luv"/>
+                        <outlet property="photo2" destination="orp-eH-lkc" id="bmH-Dt-G2z"/>
+                        <outlet property="photo3" destination="kVM-Lo-DLS" id="85A-aM-X4c"/>
+                        <outlet property="photo4" destination="mMq-sI-cyA" id="ijV-1t-BMj"/>
+                        <outlet property="photo5" destination="OCW-MI-PhB" id="Heg-cE-Kia"/>
+                        <outlet property="photo6" destination="DC3-kJ-Sqh" id="QPa-6N-71G"/>
                         <outlet property="scrollView" destination="kCd-SI-8Ap" id="UPd-3G-KKZ"/>
                     </connections>
                 </viewController>
