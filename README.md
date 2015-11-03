@@ -4,7 +4,7 @@ How many hours did it take to complete?
 
 9+2 hours - Finished every required step
 
-**Added IntroView optional after watching the Vimeo video from group
+***Added IntroView optional after watching the Vimeo video from group***
 
 
 -Intro-
