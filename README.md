@@ -2,7 +2,9 @@
 
 How many hours did it take to complete?
 
-9 hours - Finished every required step
+9+2 hours - Finished every required step
+
+**Added IntroView optional after watching the Vimeo video from group
 
 
 -Intro-
@@ -51,3 +53,5 @@ User can log out
 GIF walkthrough of all required stories 
 
 ![alt tag](/carousel-week-2.gif)
+
+![alt tag](/carousel-week-2-optionalScroll.gif)
